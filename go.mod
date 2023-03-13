@@ -1,4 +1,4 @@
-module github.com/chenyahui/gin-cache
+module github.com/Search-On-Dora/singleflight
 
 go 1.13
 
