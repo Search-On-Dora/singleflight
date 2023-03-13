@@ -3,6 +3,7 @@ module github.com/Search-On-Dora/singleflight
 go 1.13
 
 require (
+	github.com/chenyahui/gin-cache v1.8.1
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/jellydator/ttlcache/v2 v2.11.1

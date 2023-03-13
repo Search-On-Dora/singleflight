@@ -153,7 +153,7 @@ func CacheByRequestURI(defaultCacheStore persist.CacheStore, defaultExpire time.
 	} else {
 		cacheStrategy = func(c *gin.Context) (bool, Strategy) {
 			return true, Strategy{
-				CacheKey: c.Request.RequestURI,
+				CacheKey: c.Request.URL.Path,
 			}
 		}
 	}
